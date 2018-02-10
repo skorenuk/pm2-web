@@ -1,0 +1,20 @@
+[ignore]
+.*/__tests__/.*
+node_modules
+
+[include]
+./src/**/*.js
+./src/**/*.jsx
+
+[libs]
+
+[lints]
+
+[options]
+esproposal.decorators=ignore
+module.file_ext=.css
+module.name_mapper.extension='css' -> 'empty/object'
+module.file_ext=.scss
+module.name_mapper.extension='scss' -> 'empty/object'
+
+[strict]

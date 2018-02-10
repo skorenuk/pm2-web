@@ -1,0 +1,7 @@
+{
+  "verbose": true,
+  "ignore": ["src/**/*.js", "node_modules/**/node_modules"],
+  "watch": [
+    "server/"
+  ]
+}
