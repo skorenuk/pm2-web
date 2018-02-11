@@ -6,8 +6,8 @@ module.exports = {
       watch: ['pm2-admin-api'],
       env:
         {
-          PORT: 8083,
-          API_PORT: 8083,
+          PORT: 8082,
+          API_PORT: 8082,
         }
       ,
       env_production: {

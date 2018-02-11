@@ -1,3 +1,4 @@
 export default {
-  apiUrl: `http://localhost:${process.env.API_PORT}/api`
+  root: `http://localhost:${process.env.API_PORT}`,
+  apiUrl: `http://localhost:${process.env.API_PORT}/api`,
 }
